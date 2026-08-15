@@ -1,0 +1,12 @@
+[package]
+name = "qw-linux"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+description = "Linux PipeWire backend for QuietWatch"
+
+[dependencies]
+qw-audio.workspace = true
+qw-core.workspace = true

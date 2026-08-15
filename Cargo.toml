@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/qw-core", "crates/qw-dsp", "crates/qw-audio"]
+members = ["crates/qw-core", "crates/qw-dsp", "crates/qw-audio", "crates/qw-macos", "crates/qw-linux", "crates/qw-windows"]
 default-members = ["crates/qw-core"]
 
 [workspace.package]
@@ -15,3 +15,6 @@ publish = false
 qw-core = { path = "crates/qw-core" }
 qw-dsp = { path = "crates/qw-dsp" }
 qw-audio = { path = "crates/qw-audio" }
+qw-macos = { path = "crates/qw-macos" }
+qw-linux = { path = "crates/qw-linux" }
+qw-windows = { path = "crates/qw-windows" }
