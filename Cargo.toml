@@ -13,6 +13,7 @@ publish = false
 
 [workspace.dependencies]
 audio-types = { path = "crates/audio-types" }
+meter = { path = "crates/meter" }
 qw-core = { path = "crates/qw-core" }
 qw-dsp = { path = "crates/qw-dsp" }
 qw-audio = { path = "crates/qw-audio" }

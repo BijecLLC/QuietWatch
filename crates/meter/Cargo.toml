@@ -1,0 +1,11 @@
+[package]
+name = "meter"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+description = "Peak, RMS, true-peak, and loudness metering"
+
+[dependencies]
+audio-types.workspace = true
