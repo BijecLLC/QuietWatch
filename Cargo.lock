@@ -3,6 +3,15 @@
 version = 3
 
 [[package]]
+name = "quietwatch-desktop"
+version = "0.1.0"
+dependencies = [
+ "qw-audio",
+ "qw-core",
+ "qw-dsp",
+]
+
+[[package]]
 name = "qw-audio"
 version = "0.1.0"
 dependencies = [
