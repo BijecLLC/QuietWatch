@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/qw-core"]
+default-members = ["crates/qw-core"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+rust-version = "1.74"
+authors = ["Chris Perriello <chrisperriello00@gmail.com>"]
+publish = false
+
+[workspace.dependencies]
+qw-core = { path = "crates/qw-core" }
