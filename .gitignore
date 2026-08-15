@@ -1,0 +1,7 @@
+/target
+.DS_Store
+*.rs.bk
+
+# Local listening fixtures; keep the directory, drop the files.
+/test-audio/**
+!/test-audio/.gitkeep
