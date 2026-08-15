@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/brand/quietwatch-readme-banner.png" alt="QuietWatch logo" width="900">
+</p>
+
 # QuietWatch
 
 [![license](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE.md)
@@ -72,6 +76,12 @@ Output binaries are placed in `target/debug/` (or `target/release/` with `--rele
 | `quietwatch-desktop` | Desktop UI stub |
 
 Drop local listening fixtures in `test-audio/` (gitignored).
+
+## Logo Assets
+
+- [README banner](assets/brand/quietwatch-readme-banner.png)
+- [Horizontal logo](assets/brand/quietwatch-logo.png)
+- [App mark](assets/brand/quietwatch-mark.png)
 
 ## Contributing
 

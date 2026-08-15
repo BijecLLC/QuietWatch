@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">QuietWatch README banner</title>
+  <desc id="desc">QuietWatch logo banner with leveled audio waveforms.</desc>
+  <defs>
+    <linearGradient id="bannerBg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08111d"/>
+      <stop offset="0.52" stop-color="#102235"/>
+      <stop offset="1" stop-color="#07131a"/>
+    </linearGradient>
+    <linearGradient id="iris" x1="204" y1="122" x2="444" y2="406" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(364 252) rotate(29) scale(602 386)">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="0" fill="url(#bannerBg)"/>
+  <rect width="1600" height="520" fill="url(#glow)"/>
+
+  <path d="M936 122c70 80 132 104 188 72 70-40 116-9 139 92 23 99 84 119 184 59" fill="none" stroke="#164e63" stroke-width="18" stroke-linecap="round" opacity="0.55"/>
+  <path d="M918 350c72-64 134-81 185-52 65 38 115 12 149-78 30-80 88-86 174-18" fill="none" stroke="#14532d" stroke-width="15" stroke-linecap="round" opacity="0.42"/>
+  <path d="M960 260h448" fill="none" stroke="#67e8f9" stroke-width="8" stroke-linecap="round" opacity="0.74"/>
+  <path d="M1418 260h82" fill="none" stroke="#86efac" stroke-width="8" stroke-linecap="round" opacity="0.74"/>
+
+  <g filter="url(#shadow)">
+    <rect x="124" y="92" width="332" height="332" rx="82" fill="#0f1b2d"/>
+    <path d="M152 258c45-70 101-105 168-105s123 35 168 105c-45 70-101 105-168 105s-123-35-168-105Z" fill="#ecfeff"/>
+    <path d="M186 258c38-49 83-74 134-74s96 25 134 74c-38 49-83 74-134 74s-96-25-134-74Z" fill="#0d1b2d"/>
+    <circle cx="320" cy="258" r="72" fill="url(#iris)"/>
+    <circle cx="320" cy="258" r="42" fill="#08111d"/>
+    <path d="M305 230v56c0 9 10 14 17 9l42-28c7-5 7-15 0-19l-42-28c-7-5-17 1-17 10Z" fill="#f8fafc"/>
+    <path d="M192 378h42c13 0 20-13 26-26 7-16 16-34 34-34 20 0 28 22 35 42 5 14 10 26 19 26s14-15 20-31c7-22 16-47 41-47 22 0 32 19 42 37 8 15 14 27 27 27h27" fill="none" stroke="#67e8f9" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M206 392h286" fill="none" stroke="#a7f3d0" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <text x="526" y="242" fill="#f8fafc" font-family="Inter, SF Pro Display, Segoe UI, Helvetica, Arial, sans-serif" font-size="130" font-weight="800" letter-spacing="0">Quiet<tspan fill="#67e8f9">Watch</tspan></text>
+  <text x="533" y="313" fill="#cbd5e1" font-family="Inter, SF Pro Text, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="500" letter-spacing="0">Level movie and TV audio without riding the volume knob.</text>
+</svg>
