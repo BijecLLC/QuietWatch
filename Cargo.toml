@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/qw-core"]
+members = ["crates/qw-core", "crates/qw-dsp"]
 default-members = ["crates/qw-core"]
 
 [workspace.package]
@@ -13,3 +13,4 @@ publish = false
 
 [workspace.dependencies]
 qw-core = { path = "crates/qw-core" }
+qw-dsp = { path = "crates/qw-dsp" }
