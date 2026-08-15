@@ -1,0 +1,26 @@
+[package]
+name = "qw-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+description = "Command-line entry point for QuietWatch"
+
+[[bin]]
+name = "quietwatch"
+path = "src/main.rs"
+
+[dependencies]
+qw-audio.workspace = true
+qw-core.workspace = true
+qw-dsp.workspace = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+qw-macos.workspace = true
+
+[target.'cfg(target_os = "linux")'.dependencies]
+qw-linux.workspace = true
+
+[target.'cfg(target_os = "windows")'.dependencies]
+qw-windows.workspace = true

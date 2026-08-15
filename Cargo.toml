@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
-members = ["crates/qw-core", "crates/qw-dsp", "crates/qw-audio", "crates/qw-macos", "crates/qw-linux", "crates/qw-windows"]
-default-members = ["crates/qw-core"]
+members = ["crates/qw-core", "crates/qw-dsp", "crates/qw-audio", "crates/qw-macos", "crates/qw-linux", "crates/qw-windows", "crates/qw-cli"]
+default-members = ["crates/qw-cli"]
 
 [workspace.package]
 version = "0.1.0"
